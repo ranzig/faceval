@@ -1,0 +1,124 @@
+body {
+	min-width: 75%;
+
+	text-align: center;
+	font-family: Verdana;
+	font-size: 12px;
+
+	background-color: white;
+	color: black;
+}
+
+h1 {
+	margin-top: 15px;
+	margin-bottom: 2px;
+	font-size: 14px;
+	text-decoration: underline;
+}
+
+h2 {
+	margin-top: 15px;
+	margin-bottom: 2px;
+	font-size: 13px;
+}
+
+h3 {
+	margin-top: 0px;
+	margin-bottom: 2px;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+h4 {
+	color: red;
+}
+
+li {
+	margin-bottom: 5px;
+}
+
+table {
+	font-size: 12px;
+
+	border: none;
+}
+
+div#wrapper {
+	width: 75%;
+
+	margin: 0 auto;
+}
+
+div#head {
+	margin-top: 20px;
+}
+
+table.stats, table.stats td {
+	font-size: 11px;
+
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	border-collapse: collapse;
+}
+
+div#content table, div#content>table {
+	margin: 0 auto;
+
+	font-size: 12px;
+}
+
+table.stats td, div#content>table td {
+	padding: 2px 4px;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+table.small {
+	font-size: 9px;
+
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+	border-collapse: collapse;
+}
+
+tr.tablehead td {
+	text-align: center;
+	font-weight: bold;
+
+	background-color: #1c3f7b;
+	color: white;
+
+	border-left-color: grey;
+	border-right-color: grey;
+}
+
+td.rightc {
+	text-align: right;
+}
+
+td.cenc {
+	text-align: center;
+}
+
+tr.nc {
+	background-color: white;
+}
+
+tr.ac {
+	background-color: #f0f8ff;
+}
+
+tr.lastrow {
+	background-color: #f0e2b7;
+}
+
+div.left {
+	margin: 0;
+
+	text-align: left;
+}

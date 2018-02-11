@@ -1,0 +1,20 @@
+Update - login.php
+	- add dropdown for "Regular Classes" and "Online Classes"
+	- default is "Regular Classes"
+
+Update - department.php
+	- statisics are counting non-answers with averages
+
+New file - prepare.php
+	- upload files to prepare online surveys for a class
+	- takes in one file, each line is:
+<studentid>\t<course_crn>\t<course_name>\t<dept_id>
+	- input for semester (dropdown)
+	- input for online/regular (dropdown - online is default)
+	- input for cutoff time, default to 30 days
+	- checkbox for "clean up db before insert", default checked
+	- link to new app in file 'admin.php'
+
+New file - semesters.php
+	- lists semesters and "active" status
+	- allows administrator to turn semesters on and off
